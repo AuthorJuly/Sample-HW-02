@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,800&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --iriscolor: #4d5ae5;
+  --navyblue: ;
+}
+.link-logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  line-height: 1.5px;
+}
+.web-logo {
+  color: var(--iriscolor);
+}
+.studio-logo {
+  color: var(--navyblue);
+}
+.navbar .pages {
+}

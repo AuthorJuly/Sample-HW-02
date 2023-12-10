@@ -1,36 +1,67 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,800&family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
 
 :root {
   --iriscolor: #4d5ae5;
   --navyblue: #2e2f42;
   --navcolor: black;
   --oceancolor: #2196f3;
+  --whitecolor: white;
 }
+
 .link-logo {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-size: 30px;
   line-height: 1.5px;
 }
+
 .web-logo {
   color: var(--iriscolor);
 }
+
 .studio-logo {
   color: var(--navyblue);
 }
+
 .navbar .pages {
   color: var(--navcolor);
   text-decoration: none;
   font-weight: 500;
-  font-size: 15;
+  font-size: 15px;
   line-height: 1.15;
   letter-spacing: 0.05em;
 }
+
 .lists {
   list-style-type: none;
 }
 
 .navbar .pages:hover,
-.navbar .pages:focus {
+.navbar .pages:focus,
+.navbar .pages.currentoption,
+.contact-info .info:hover,
+.contact-info .info:focus {
   color: var(--oceancolor);
+}
+
+.contact-info .info {
+  color: var(--navcolor);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+}
+
+.bg-section1 {
+  background-color: var(--navyblue);
+}
+
+.h1-title {
+  color: var(--whitecolor);
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.05em;
 }

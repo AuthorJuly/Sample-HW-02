@@ -6,6 +6,7 @@
   --navcolor: black;
   --oceancolor: #2196f3;
   --whitecolor: white;
+  --slatecolor: #434455;
 }
 
 .link-logo {
@@ -64,4 +65,53 @@
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.05em;
+}
+
+.btn {
+  cursor: pointer;
+  border-color: transparent;
+  letter-spacing: 0.05em;
+  font-family: inherit;
+}
+
+.btn.primary {
+  background-color: var(--oceancolor);
+  color: var(--whitecolor);
+  font-weight: 800;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+.btn.primary:hover,
+.btn.primary:focus {
+  background-color: hotpink;
+}
+
+.desclist.titlelist {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--slatecolor);
+}
+
+.sectiontitle {
+  text-align: center;
+  colro: var(--navyblue);
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.teamname {
+  color: var(--navyblue);
+  font-weight: 900;
+}
+
+.position {
+  color: var(--slatecolor);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
